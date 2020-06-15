@@ -1,4 +1,4 @@
-import discord
+import discord # Needs version 0.16.12
 import random
 import os
 
@@ -20,3 +20,6 @@ async def on_message(message):
     if message.content.lower().startswith("!neko"):
         cat = str(random.randint(1,101))+'.png'
         await client.send_file(message.channel, path+cat)
+
+token = '' # Put yours here!
+client.run(token)
