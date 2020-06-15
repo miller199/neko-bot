@@ -2,7 +2,7 @@ import discord # Needs version 0.16.12
 import random
 import os
 
-path = os.path.dirname(os.path.realpath(__file__)) + '\\images\\'
+path = os.path.dirname(os.path.realpath(__file__)) + '/images/'
 print(path)
 client = discord.Client()
 
